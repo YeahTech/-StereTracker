@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/">
+    <file>Images/sender.png</file>
+    <file>Images/Calib-Info-icon.png</file>
+    <file>Images/Camera-Info-icon.png</file>
+    <file>Images/half size-image.png</file>
+    <file>Images/HDR.png</file>
+    <file>Images/Help-icon.png</file>
+    <file>Images/New Template.png</file>
+    <file>Images/Pose Recorder.png</file>
+    <file>Images/settings.png</file>
+    <file>Images/Standby-icon.png</file>
+    <file>Images/start-icon.png</file>
+    <file>Images/video recorder.png</file>
+  </qresource>
+</RCC>

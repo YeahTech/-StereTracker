@@ -1,0 +1,43 @@
+﻿生成启动时间为 2018/2/24 星期六 下午 5:21:05。
+     1>项目“C:\Users\Administrator\Desktop\ZoezenTracker\ZoezenTracker.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Release\ZoezenTracker.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\opencv2_4_13_Full\include\opencv2 /ID:\opencv2_4_13_Full\include\opencv /ID:\opencv2_4_13_Full\include /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include" /ID:\opencv2.4.3_cuda6.5_vs2010\include /ID:\opencv2.4.3_cuda6.5_vs2010\include\opencv /ID:\opencv2.4.3_cuda6.5_vs2010\include\opencv2 /I".\ThirdPart\eigen-eigen-f562a193118d" /I.\ThirdPart\DirectShow\Include /I. /ID:/Qt/Qt5.4.2/5.4/msvc2010_opengl\include /ID:/Qt/Qt5.4.2/5.4/msvc2010_opengl\include\QtWidgets /ID:/Qt/Qt5.4.2/5.4/msvc2010_opengl\include\QtGui /ID:/Qt/Qt5.4.2/5.4/msvc2010_opengl\include\QtCore /Irelease /I"D:/Qt/Qt5.4.2/5.4/msvc2010_opengl\mkspecs\win32-msvc2010" /I.\GeneratedFiles /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include\QtNetwork /I.\ThirdPart\uEye\include /Zi /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /D QT_NETWORK_LIB /D QT_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt UdpSenderList\udpsenderlistdlg.cpp -Zm200 -w34100 -w34189 
+         udpsenderlistdlg.cpp
+     1>c:\users\administrator\desktop\zoezentracker\udpsenderlist\udpsender.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\ZoezenTracker.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\ThirdPart\DirectShow\Lib /LIBPATH:D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib /LIBPATH:D:\opencv2_4_13_Full\x86\vc10\lib /LIBPATH:.\ThirdPart\uEye\Lib strmiids.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_video2413.lib glu32.lib opengl32.lib gdi32.lib user32.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\qtmain.lib shell32.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Core.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Widgets.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Gui.lib Qt5Network.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\ZoezenTracker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Administrator\Desktop\ZoezenTracker\release\ZoezenTracker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Release\qrc_images.obj
+         Win32\Release\qrc_senderlistrs.obj
+         Win32\Release\moc_poserecorderdlg.obj
+         Win32\Release\moc_templatemanager.obj
+         Win32\Release\moc_udpreceiver.obj
+         Win32\Release\moc_udpsender.obj
+         Win32\Release\moc_udpsenderlistdlg.obj
+         Win32\Release\moc_zoezentracker.obj
+         Win32\Release\main.obj
+         Win32\Release\MarkerDetector.obj
+         Win32\Release\poserecorderdlg.obj
+         Win32\Release\stdafx.obj
+         Win32\Release\StereoCam.obj
+         Win32\Release\StereoTracker.obj
+         Win32\Release\templatemanager.obj
+         Win32\Release\udpreceiver.obj
+         Win32\Release\udpsender.obj
+         Win32\Release\udpsenderlistdlg.obj
+         Win32\Release\UsbCamera.obj
+         Win32\Release\zoezentracker.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         ZoezenTracker.vcxproj -> C:\Users\Administrator\Desktop\ZoezenTracker\release\ZoezenTracker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release\\ZoezenTracker.exe;#1" /manifest Win32\Release\ZoezenTracker.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Release\ZoezenTracker.unsuccessfulbuild”。
+         正在对“Win32\Release\ZoezenTracker.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\ZoezenTracker\ZoezenTracker.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.22

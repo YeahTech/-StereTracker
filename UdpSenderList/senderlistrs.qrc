@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>senderListRs/add.png</file>
+        <file>senderListRs/delete.png</file>
+        <file>senderListRs/refresh.png</file>
+    </qresource>
+</RCC>

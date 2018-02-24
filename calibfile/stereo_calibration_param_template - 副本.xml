@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibrationDate>"Fri Jul 29 15:43:19 2016&#x0a;"</calibrationDate>
+<ImageSize>
+  1280 720</ImageSize>
+<cameraMatrix_left type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1175.65188 0. 573.75897 0.
+    1171.96343 478.18733 0. 0. 1.</data></cameraMatrix_left>
+<distCoeffs_left type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    0.09829   -0.16245   0.00706   0.00566  0.00000</data></distCoeffs_left>
+<cameraMatrix_right type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1171.84720 0. 660.81187 0.
+     1165.37807 396.07192 0. 0. 1.</data></cameraMatrix_right>
+<distCoeffs_right type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+     0.13222   -0.25991   0.00909   0.00677  0.00000</data></distCoeffs_right>
+<R type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    -0.00829   -0.01164  -0.00555</data></R>
+<T type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>1</cols>
+  <dt>d</dt>
+  <data>
+    -195.87577   0.57806  3.67611</data></T>
+</opencv_storage>

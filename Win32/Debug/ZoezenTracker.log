@@ -1,0 +1,59 @@
+﻿生成启动时间为 2018/2/23 星期五 下午 3:45:37。
+     1>项目“C:\Users\Administrator\Desktop\ZoezenTracker\ZoezenTracker.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\ZoezenTracker.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" /I"D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include" /I.\ThirdPart\opencv2_4_13_Full\include\opencv2 /I.\ThirdPart\opencv2_4_13_Full\include\opencv /I.\ThirdPart\opencv2_4_13_Full\include /I".\ThirdPart\eigen-eigen-f562a193118d" /I.\ThirdPart\DirectShow\Include /I. /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include\QtWidgets /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include\QtGui /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include\QtCore /Idebug /I"D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\mkspecs\win32-msvc2010" /I.\GeneratedFiles /ID:\Qt\Qt5.4.2\5.4\msvc2010_opengl\include\QtNetwork /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NETWORK_LIB /D QT_DLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt zoezentracker.cpp -Zm200 -w34100 -w34189 
+         zoezentracker.cpp
+     1>zoezentracker.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\zoezentracker\thirdpart\eigen-eigen-f562a193118d\eigen\src/Core/arch/CUDA/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\zoezentracker\thirdpart\opencv2_4_13_full\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\administrator\desktop\zoezentracker\templatemanager.h(59): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\desktop\zoezentracker\templatemanager.h(75): warning C4018: “<”: 有符号/无符号不匹配
+     1>C:\Users\Administrator\Desktop\ZoezenTracker\ThirdPart\opencv2_4_13_Full\include\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\zoezentracker\udpsenderlist\udpsender.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Users\Administrator\Desktop\ZoezenTracker\ThirdPart\opencv2_4_13_Full\include\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>zoezentracker.cpp(152): warning C4018: “<”: 有符号/无符号不匹配
+     1>zoezentracker.cpp(334): warning C4995: “sprintf”: 名称被标记为 #pragma deprecated
+     1>zoezentracker.cpp(334): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>zoezentracker.cpp(336): warning C4995: “sprintf”: 名称被标记为 #pragma deprecated
+     1>zoezentracker.cpp(336): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\ZoezenTracker.exe" /NOLOGO /LIBPATH:.\ThirdPart\opencv2_4_13_Full\x86\vc10\lib /LIBPATH:.\ThirdPart\DirectShow\Lib /LIBPATH:D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib /LIBPATH:.\ThirdPart\uEye\Lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib strmiids.lib glu32.lib opengl32.lib gdi32.lib user32.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\qtmaind.lib shell32.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Cored.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Widgetsd.lib D:\Qt\Qt5.4.2\5.4\msvc2010_opengl\lib\Qt5Guid.lib Qt5Networkd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\ZoezenTracker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\ZoezenTracker\debug\ZoezenTracker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\moc_poserecorderdlg.obj
+         Win32\Debug\moc_templatemanager.obj
+         Win32\Debug\moc_udpreceiver.obj
+         Win32\Debug\moc_udpsender.obj
+         Win32\Debug\moc_udpsenderlistdlg.obj
+         Win32\Debug\moc_zoezentracker.obj
+         Win32\Debug\qrc_images.obj
+         Win32\Debug\qrc_senderlistrs.obj
+         Win32\Debug\main.obj
+         Win32\Debug\MarkerDetector.obj
+         Win32\Debug\poserecorderdlg.obj
+         Win32\Debug\stdafx.obj
+         Win32\Debug\StereoCam.obj
+         Win32\Debug\StereoTracker.obj
+         Win32\Debug\templatemanager.obj
+         Win32\Debug\udpreceiver.obj
+         Win32\Debug\udpsender.obj
+         Win32\Debug\udpsenderlistdlg.obj
+         Win32\Debug\UsbCamera.obj
+         Win32\Debug\zoezentracker.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : 没有找到 debug\\ZoezenTracker.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ZoezenTracker.vcxproj -> C:\Users\Administrator\Desktop\ZoezenTracker\debug\ZoezenTracker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\ZoezenTracker.exe;#1" /manifest Win32\Debug\ZoezenTracker.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\ZoezenTracker.unsuccessfulbuild”。
+         正在对“Win32\Debug\ZoezenTracker.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Administrator\Desktop\ZoezenTracker\ZoezenTracker.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.48
